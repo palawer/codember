@@ -34,5 +34,4 @@ with open('./users.txt', 'r') as fp:
         else:
             user_line.append(ln)
 
-print(len(correct_users))
-print(correct_users[-1])
+print(f"{len(correct_users)}{correct_users[-1]['usr']}")
